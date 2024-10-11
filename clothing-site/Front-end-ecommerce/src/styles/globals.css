@@ -1,0 +1,27 @@
+@import "open-props/style";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-0);
+  color: var(--gray-10);
+  padding: 0 var(--size-8);
+
+  @media screen and (max-width: 1000px) {
+    padding: 0 var(--size-4);
+  }
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+#__next {
+  max-width: var(--size-xl);
+  margin: 0 auto;
+}

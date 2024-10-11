@@ -1,0 +1,32 @@
+/* src/styles/App.css */
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-details {
+  width: 60%;
+}
+
+.mini-cart {
+  width: 30%;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.error {
+  color: red;
+}
