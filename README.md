@@ -4,4 +4,6 @@ directory structure
 clothes-site:
   Back-end-Rest-Api-Main
   Front-end-ecommerce
+  clothes_db database zip file
+  
   
